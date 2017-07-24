@@ -1,11 +1,11 @@
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Assertions;
 
 
 public class AppTest {
 
     @Test
     public void testPrintHelloWorld(){
-        assertEquals(App.getHelloWorld(), "Hello World");
+        Assertions.assertEquals(App.getHelloWorld(), "Hello World","A mensagem é: " + App.getHelloWorld());
     }
 }

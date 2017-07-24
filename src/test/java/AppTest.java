@@ -11,6 +11,6 @@ public class AppTest {
 
     @Test
     public void testPrintHelloWorld2(){
-        Assertions.assertEquals(App.getHelloWorld2(), "Hello World","A mensagem é: " + App.getHelloWorld2());
+        Assertions.assertEquals(App.getHelloWorld2(), "Hello World 2","A mensagem é: " + App.getHelloWorld2());
     }
 }
